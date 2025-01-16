@@ -14,7 +14,7 @@ import StudentComplains from './Components/Student/StudentDetails/StudentComplai
 import DashboardStudent from './Components/Student/DashboardStudent';
 import TeacherDetails from './Components/Teacher/TeacherDashboard';
 import Classes from './Components/Teacher/TeacherDetils/Classes';
-import TeacherProfile from './Components/Teacher/TeacherDetils/profile';
+import TeacherProfile from './Components/Teacher/TeacherDetils/TeacherProfile';
 import Assignments from './Components/Teacher/TeacherDetils/Assignments';
 import AdminProfile from './Components/Admin/AdminDetails/AdminProfile';
 import Notices from './Components/Admin/AdminDetails/Notices';
