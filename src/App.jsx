@@ -23,7 +23,6 @@ import Complains from './Components/Admin/AdminDetails/Complains';
 import Teachers from './Components/Admin/AdminDetails/Teachers';
 import Students from './Components/Admin/AdminDetails/Students';
 import Subjects from './Components/Admin/AdminDetails/Subjects';
-
 import AdminHome from './Components/Admin/AdminDetails/AdminHome';
 import TeachersHome from './Components/Teacher/TeacherDetils/teachershome';
 import StudentHome from './Components/Student/StudentDetails/StudentHome';
