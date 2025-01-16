@@ -3,6 +3,7 @@ import Landing from './Components/Landing/Landing'
 import {  Route, Routes } from 'react-router-dom';
 import Login from './Pages/LoginRegister/Login';
 import StudentLogin from './Pages/LoginRegister/StudentLogin';
+import AdminClasses from './Components/Admin/AdminDetails/Adminclasses';
 import AdminLogin from './Pages/LoginRegister/AdminLogin';
 import AdminRegister from './Pages/LoginRegister/AdminRegister';
 import TeacherLogin from './Pages/LoginRegister/TeacherLogin';
@@ -22,7 +23,7 @@ import Complains from './Components/Admin/AdminDetails/Complains';
 import Teachers from './Components/Admin/AdminDetails/Teachers';
 import Students from './Components/Admin/AdminDetails/Students';
 import Subjects from './Components/Admin/AdminDetails/Subjects';
-import AdminClasses from './Components/Admin/AdminDetails/Adminclasses';
+
 import AdminHome from './Components/Admin/AdminDetails/AdminHome';
 import TeachersHome from './Components/Teacher/TeacherDetils/teachershome';
 import StudentHome from './Components/Student/StudentDetails/StudentHome';
@@ -58,7 +59,7 @@ function App() {
         <Route path="/admin/teachers" element={<Teachers />} />
         <Route path="/admin/students" element={< Students/>} />
         <Route path="/admin/subjects" element={< Subjects/>} />
-        <Route path="/admin/classes" element={<AdminClasses />} />
+        <Route path="/admin/classes" element={<AdminClasses/>} />
         <Route path="/admin/home" element={<AdminHome />} />
         <Route path="teacher/dashboard" element={<TeachersHome/>} />
         <Route path="/student/home" element={<StudentHome/>} />
