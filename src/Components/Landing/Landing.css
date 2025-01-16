@@ -1,0 +1,87 @@
+/* General Landing Page Styles */
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #EAF2F8; /* Light blue background */
+    color: #2C3E50; /* Dark blue text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .landing-image {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+  }
+  
+  .intro-section {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .intro-section h1 {
+    font-size: 48px;
+    color: #2C3E50; /* Dark blue */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .intro-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #2C3E50;
+    margin-bottom: 20px;
+  }
+  
+  .intro-section p strong {
+    color: #28a745; /* Green for emphasis */
+  }
+  
+  /* Action Buttons */
+  .action-buttons {
+    margin-top: 20px;
+  }
+  
+  .login-button {
+    background-color: #2C3E50; /* Dark blue */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .login-button:hover {
+    background-color: #81C3D7; /* Pastel blue for hover effect */
+  }
+  
+  .login-button:focus {
+    outline: none;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .landing-container {
+      padding: 15px;
+    }
+  
+    .landing-image {
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .intro-section h1 {
+      font-size: 36px;
+    }
+  
+    .intro-section p {
+      font-size: 16px;
+    }
+  }
