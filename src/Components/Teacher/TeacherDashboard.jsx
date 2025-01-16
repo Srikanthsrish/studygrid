@@ -1,26 +1,28 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 const TeacherDetails = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">Teacher Dashboard</div>
       <ul className="navbar-menu">
-        <li><a href="teacher/dashboard">Dashboard</a></li>
-        <li><a href="teacher/classes">Classes</a></li>
-        <li><a href="teacher/attendance">Attendance</a></li>
-        <li><a href="teacher/assignments">Assignments</a></li>
-        <li><a href="teacher/reports">Reports</a></li>
-        <li><a href="teacher/messages">Messages</a></li>
+        <li><Link to="/teacher/home">Home</Link></li>
+        <li><Link to="/teacher/classes">Classes</Link></li>
+        <li><Link to="/teacher/attendance">Attendance</Link></li>
+        <li><Link to="/teacher/assignments">Assignments</Link></li>
+        <li><Link to="/teacher/reports">Reports</Link></li>
+        <li><Link to="/teacher/messages">Messages</Link></li>
         <li className="dropdown">
-          <a href="#" className="dropdown-toggle">Profile</a>
+          <Link to="#" className="dropdown-toggle">Profile</Link>
           <ul className="dropdown-menu">
-            <li><a href="teacher/profile">View Profile</a></li>
-            <li><a href="teacher/logout">Logout</a></li>
+            <li><Link to="/teacher/profile">View Profile</Link></li>
+            <li><Link to="/teacher/logout">Logout</Link></li>
           </ul>
         </li>
       </ul>
     </nav>
   );
 };
+
 export default TeacherDetails;
+

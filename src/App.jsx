@@ -23,9 +23,9 @@ import Teachers from './Components/Admin/AdminDetails/Teachers';
 import Students from './Components/Admin/AdminDetails/Students';
 import Subjects from './Components/Admin/AdminDetails/Subjects';
 import AdminClasses from './Components/Admin/AdminDetails/Adminclasses';
-import AdminHome from './Components/Admin/AdminDetails/AdminHome';
-import TeachersHome from './Components/Teacher/TeacherDetils/teachershome';
+import TeachersHome from './Components/Teacher/TeacherDetils/TeachersHome';
 import StudentHome from './Components/Student/StudentDetails/StudentHome';
+import Home from './Components/Admin/AdminDetails/Home';
 import './App.css';
 
 function App() {
@@ -44,11 +44,13 @@ function App() {
         <Route path="/student/complains" element={<StudentComplains />} />
         <Route path="/student/timetable" element={<StudentTimetable />} />
         <Route path="/student/home" element={<StudentHome />} />
+        <Route path="/student/logout" element={<Landing/>} />
 
         {/* Admin Routes */}
         <Route path="/admin/login" element={<AdminLogin />} />
-        <Route path="/admin/register" element={<AdminRegister />} />
-        <Route path="/admin/dashboard" element={<AdminDashboard />} />
+        <Route path="/admin/register" element={<AdminRegister/>} />
+        <Route path="/admin/dashboard" element={<AdminDashboard/>} />
+        <Route path="/admin/home" element={< Home/>} />
         <Route path="/admin/profile" element={<AdminProfile />} />
         <Route path="/admin/notices" element={<Notices />} />
         <Route path="/admin/complains" element={<Complains />} />
@@ -56,7 +58,9 @@ function App() {
         <Route path="/admin/students" element={<Students />} />
         <Route path="/admin/subjects" element={<Subjects />} />
         <Route path="/admin/classes" element={<AdminClasses />} />
-        <Route path="/admin/home" element={<AdminHome />} />
+        
+        <Route path="/admin/logout" element={<Landing/>} />
+        
 
         {/* Teacher Routes */}
         <Route path="/teacher/login" element={<TeacherLogin />} />
@@ -65,6 +69,7 @@ function App() {
         <Route path="/teacher/classes" element={<Classes />} />
         <Route path="/teacher/profile" element={<TeacherProfile />} />
         <Route path="/teacher/assignments" element={<Assignments />} />
+        <Route path="/teacher/logout" element={<Landing/>} />
       </Routes>
     </>
   );

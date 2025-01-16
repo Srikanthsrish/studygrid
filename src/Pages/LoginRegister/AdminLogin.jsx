@@ -19,7 +19,7 @@ const AdminLogin = () => {
     if (email === "admin@example.com" && password === "admin123") {
       setError("");
       alert("Login Successful!");
-      navigate("/adminDashboard"); // Navigate to Admin Dashboard
+      navigate("/admin/dashboard"); // Navigate to Admin Dashboard
     } else {
       setError("Invalid email or password.");
     }

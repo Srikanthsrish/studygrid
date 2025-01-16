@@ -6,7 +6,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLoginClick = (role) => {
-    navigate(`/${role}Login`);  // Navigate based on the role
+    navigate(`/${role}/Login`);  // Navigate based on the role
   };
 
   const styles = {

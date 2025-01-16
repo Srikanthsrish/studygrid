@@ -43,7 +43,7 @@ const TeacherLogin = () => {
       alert("Login successful!");
 
       // Redirect to Teacher Dashboard
-      navigate("/teacher-dashboard");
+      navigate("/teacher/dashboard");
 
       // Reset form fields
       setFormData({

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./Home.css"
 
-function AdminHome() {
+function Home() {
   const [dashboard, setDashboard] = useState({
     totalClasses: 0,
     totalTeachers: 0,
@@ -115,4 +115,4 @@ function AdminHome() {
   );
 }
 
-export default AdminHome;
+export default Home;

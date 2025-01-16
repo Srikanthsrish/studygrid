@@ -14,7 +14,7 @@ const  AdminDashboard = () => {
         <li><Link to="/admin/notices">Notices</Link></li>
         <li><Link to="/admin/complains">Complains</Link></li>
         <li><Link to="/admin/profile">Profile</Link></li>
-        <li><Link to="/logout">Logout</Link></li>
+        <li><Link to="/admin/logout">Logout</Link></li>
       </ul>
     </nav>
   );

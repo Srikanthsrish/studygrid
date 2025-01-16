@@ -44,7 +44,7 @@ const StudentLogin = () => {
       console.log("Student Login Data: ", formData);
 
       // Redirect to Student Dashboard
-      navigate("/studentDashboard");
+      navigate("/student/dashboard");
 
       // Reset form fields
       setFormData({
