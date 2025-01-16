@@ -7,11 +7,11 @@ import AdminLogin from './Pages/LoginRegister/AdminLogin';
 import AdminRegister from './Pages/LoginRegister/AdminRegister';
 import TeacherLogin from './Pages/LoginRegister/TeacherLogin';
 import AdminDashboard from './Components/Admin/AdminDashboard';
-import StudentDashboard from './Components/Student/StudentDashboard';
+import StudentTimetable from './Components/Student/StudentDetails/StudentTimetable';
 import StudentProfile from './Components/Student/StudentDetails/StudentProfile';
 import StudentAttendance from './Components/Student/StudentDetails/StudentAttendance';
 import StudentComplains from './Components/Student/StudentDetails/StudentComplains';
-import StudentDashboard from './Components/Student/StudentDashboard';
+import DashboardStudent from './Components/Student/DashboardStudent';
 import TeacherDetails from './Components/Teacher/TeacherDashboard';
 import Classes from './Components/Teacher/TeacherDetils/Classes';
 import TeacherProfile from './Components/Teacher/TeacherDetils/profile';
@@ -22,7 +22,7 @@ import Complains from './Components/Admin/AdminDetails/Complains';
 import Teachers from './Components/Admin/AdminDetails/Teachers';
 import Students from './Components/Admin/AdminDetails/Students';
 import Subjects from './Components/Admin/AdminDetails/Subjects';
-import AdminClasses from './Components/Admin/AdminDetails/AdminClasses';
+import AdminClasses from './Components/Admin/AdminDetails/Adminclasses';
 import AdminHome from './Components/Admin/AdminDetails/AdminHome';
 import TeachersHome from './Components/Teacher/TeacherDetils/teachershome';
 import StudentHome from './Components/Student/StudentDetails/StudentHome';
@@ -42,7 +42,7 @@ function App() {
         <Route path="//adminregister" element={<AdminRegister />} />
         <Route path="/teacherLogin" element={<TeacherLogin/>} />
         <Route path="/adminDashboard" element={<AdminDashboard/>} />
-        <Route path="/studentDashboard" element={<StudentDashboard/>} />
+        <Route path="/studentDashboard" element={<DashboardStudent/>} />
         <Route path="/student/profile" element={<StudentProfile/>} />
         <Route path="/student/attendance" element={<StudentAttendance/>} />
         <Route path="/student/complains" element={<StudentComplains/>} />
