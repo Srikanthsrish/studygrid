@@ -22,7 +22,7 @@ import Complains from './Components/Admin/AdminDetails/Complains';
 import Teachers from './Components/Admin/AdminDetails/Teachers';
 import Students from './Components/Admin/AdminDetails/Students';
 import Subjects from './Components/Admin/AdminDetails/Subjects';
-import AdminClasses from './Components/Admin/AdminDetails/Adminclasses';
+import ClassesAdmin from './Components/Admin/AdminDetails/ClassesAdmin'; 
 import TeachersHome from './Components/Teacher/TeacherDetils/TeachersHome';
 import StudentHome from './Components/Student/StudentDetails/StudentHome';
 import Home from './Components/Admin/AdminDetails/Home';
@@ -57,7 +57,7 @@ function App() {
         <Route path="/admin/teachers" element={<Teachers />} />
         <Route path="/admin/students" element={<Students />} />
         <Route path="/admin/subjects" element={<Subjects />} />
-        <Route path="/admin/classes" element={<AdminClasses />} />
+        <Route path="/admin/classes" element={<ClassesAdmin />} />
         
         <Route path="/admin/logout" element={<Landing/>} />
         

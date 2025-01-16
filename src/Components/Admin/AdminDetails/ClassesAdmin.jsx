@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-function AdminClasses() {
+function ClassesAdmin() {
   const [classes, setClasses] = useState([]);
   const [classId, setClassId] = useState("");
   const [teacherId, setTeacherId] = useState("");
@@ -136,4 +136,4 @@ function AdminClasses() {
   );
 }
 
-export default AdminClasses;
+export default ClassesAdmin;
